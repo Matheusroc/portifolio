@@ -1,0 +1,391 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    /* user-select: none; */
+}
+
+br {
+    user-select: none;
+}
+
+
+.tudo {
+    /* background: no-repeat linear-gradient(rgb(16, 5, 140), rgb(100, 10, 165)); */
+    background-color: black;
+}
+
+.navegation {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 25px;
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.nav1 {
+    text-decoration: none;
+    color: #ffff;
+    margin: 10px;
+}
+
+.nav2 {
+    text-decoration: none;
+    color: #ffff;
+    margin: 10px;
+
+}
+
+.nav3 {
+    text-decoration: none;
+    color: #ffff;
+    margin: 10px;
+
+}
+
+.nav4 {
+    text-decoration: none;
+    color: #ffff;
+    margin: 10px;
+}
+
+.rosto {
+    height: 420px;
+    width: 420px;
+    border-radius: 50%;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+
+.info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.name {
+    margin-left: 15%;
+    font-size: 80px;
+    margin-top: 7%;
+    color: #ffff;
+    font-family: 'Fasthand', cursive;
+
+}
+
+.sobre {
+    margin-top: 10%;
+}
+
+.meu {
+    font-size: 80px;
+    text-align: center;
+    color: #ffff;
+
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.textmeu {
+    margin-top: 150px;
+    border-color: aqua;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-size: 40px;
+    color: #ffff;
+
+    font-family: 'Bebas Neue', cursive;
+
+}
+
+.ass {
+    font-size: 35px;
+    font-family: 'Fasthand', cursive;
+    font-size: 50px;
+    margin-left: 500px;
+    color: #ffff;
+    margin-top: 5%;
+}
+
+.exp {
+    font-size: 80px;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 10%;
+
+}
+
+.htmlexp {
+    display: flex;
+    flex-direction: row;
+}
+
+.imghtml {
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+
+}
+
+.htmltext {
+    color: #ffff;
+    margin-left: 50px;
+}
+
+.cssexp {
+    display: flex;
+    flex-direction: row;
+}
+
+.imgcss {
+    height: 100px;
+    width: 100px;
+    margin-left: 500px;
+    margin-top: 100px;
+}
+
+.csstext {
+    color: #ffff;
+    margin-left: 50px;
+    margin-top: 110px;
+}
+
+.projetos {
+    font-size: 80px;
+    text-align: center;
+    color: #ffff;
+    font-family: 'Bebas Neue', cursive;
+    margin-top: 20%;
+}
+
+.cardesprojetos {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.card1 {
+    width: 380px;
+    height: 200px;
+    display: flex;
+    margin-left: 30vh;
+    margin-top: 200px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    background: linear-gradient(rgb(13, 77, 126), rgb(102, 14, 137));
+    border-radius: 20px;
+    box-shadow: 0px 3px 30px #ffff;
+}
+
+.img-portifolio {
+   margin-top: -180px;  
+  
+}
+
+.html-portifolio {
+    height: 100px;
+    width: 100px;
+    
+}
+
+.css-portifolio {
+    height: 100px;
+    width: 100px;
+    margin-left: 50px;
+}
+
+.nome-portifolio {
+    margin-top: 80px;
+    flex-direction: column;
+    display: flex;
+}
+
+.cardb1 {
+    width: 400px;
+    height: 0px;
+    display: flex;
+    margin-top: 190px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 17px;
+}
+
+.projetobotao1 {
+    display: inline-block;
+    text-decoration: none;
+    font-size: 24px;
+    margin-top: 100px;
+    margin-left: 350px;
+    background: none;
+    color: rgb(229, 222, 232);
+    border: 8px solid #6507a0;
+    padding: 16px 64px;
+    border-radius: 16px;
+  
+    text-shadow: 0 0 8px rgb(13, 77, 126) 29px  rgb(102, 14, 137);
+  
+    box-shadow: inset 0 0 32px rgb(10, 15, 179), 0 0 32px rgb(102, 14, 137);
+  
+    position: relative;
+}
+
+.projetobotao1::before {    
+  pointer-events: none;
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgb(102, 14, 137);
+  left: 0;
+  top: 120%;
+  transform: perspective(64px) rotateX(40deg) scale(1, 0.35);
+  filter: blur(64px);
+  opacity: 0.7;
+}
+
+.projetobotao1::after {
+    content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #6507a0;
+  box-shadow: 0 0 128px 32px #6507a0;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 100ms linear;
+}
+
+.projetobotao1:hover::after,
+.projetobotao1:focus::after {
+  opacity: 1;
+}
+
+.projetobotao1:hover,
+.projetobotao1:focus {
+  color: #c7cedc;
+  text-shadow: none;
+}
+
+.card2 {
+    width: 380px;
+    height: 200px;
+    display: flex;
+    margin-left: 25vh;
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 30px;
+    background: linear-gradient(rgb(13, 77, 126), rgb(102, 14, 137));
+    border-radius: 20px;
+    box-shadow: 0px 3px 30px #ffff;
+    user-select: none;
+}
+
+.cardb2 {
+    width: 200px;
+    height: 0px;
+    display: flex;
+    margin-top: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 40px 20px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 17px;
+    user-select: none;
+}
+
+
+
+
+
+
+
+.footer {
+    color: aliceblue;
+    /*background: linear-gradient(rgb(0, 0, 0), rgb(57, 20, 168), rgb(0, 0, 0));*/
+    background: linear-gradient(0deg, rgb(5, 5, 59), rgb(0, 0, 0));
+    user-select: none;
+}
+
+.text {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 40px;
+    color: #ffff;
+    margin-top: 5%;
+    text-align: center;
+    user-select: none;
+}
+
+.assfooter {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: #ffff;
+    margin-top: 10px;
+    user-select: none;
+}
+
+@media screen and (max-width: 480px) {
+   
+    .navegation {
+        margin-left: 10px;
+        color: aliceblue;
+    }
+
+    .nav1 {
+        margin: 5px;
+    }
+
+    .nav2 {
+        margin: 5px;
+    }
+
+    .nav3 {
+        margin: 5px;
+    }
+
+    .nav4 {
+        margin: 5px;
+        
+    }
+
+
+
+    .rosto {
+        margin-left: 100px;
+    }
+
+    .name {
+        margin-left: 25%;
+        font-size: 80px;
+        margin-top: 7%;
+        color: #ffff;
+        font-family: 'Fasthand', cursive;
+        flex-direction: none;
+        margin-top: 100px;
+        
+    }
+
+    .sobre {
+        margin-left: 60px;
+    }
+
+
+   .textmeu {
+    font-size: 50px;
+    width: 100%;
+    margin-left: 50px;
+    padding: 30px;
+    
+   }
+}
